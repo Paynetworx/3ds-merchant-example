@@ -1,0 +1,11 @@
+version: '2'
+services:
+    merchant_backend:
+      build:
+        dockerfile: ./Dockerfile
+      environment:
+        PAYNETWORX_3DS: <your endpoint>
+        USERNAME: <your username>
+        PASSWORD: <your password>
+      ports:
+        - "8081:8080"
