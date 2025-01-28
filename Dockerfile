@@ -1,5 +1,4 @@
 # Build stage
-#FROM 805012293679.dkr.ecr.us-east-2.amazonaws.com/alpine-nodejs_build:latest
 FROM node:18-alpine
 WORKDIR /usr/src/app
 
